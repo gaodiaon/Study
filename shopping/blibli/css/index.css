@@ -1,0 +1,20 @@
+.sousuo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sousuo .zuoce {
+    display: flex;
+    width: 770px;
+    justify-content: space-around;
+}
+
+.sousuo .youce {
+    display: flex;
+    width: 620px;
+    justify-content: space-around;
+}
+
+.sousuokuang {
+    flex: 1;
+}

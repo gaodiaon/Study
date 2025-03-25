@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品优购</title>
+    <!-- 引入css基础样式，消除全局不需要的样式 -->
+    <link rel="stylesheet" href="/css/base.css">
+    <!-- 引入公共样式 复用 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入favicon  常用的图片格式为.ico 但是常见的图片格式都支持，type属性代表图片的格式，非必需 浏览器会自动识别 -->
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+        div {
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 1400px;
+            height: 800px;
+            background-color: purple;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        span {
+            flex: 1;
+            width: 400px;
+            height: 150px;
+            background-color: #fff;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>这是第一个盒子</span>
+        <span>这是第二个盒子</span>
+        <span>这是第三个盒子</span>
+        <span>这是第四个盒子</span>
+        <span>这是第五个盒子</span>
+    </div>
+</body>
+
+</html>
